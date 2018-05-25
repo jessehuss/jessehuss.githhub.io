@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lab Exam 03 - jQuery</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="E03.js"></script>
+    <style>
+    body, input, button, select {
+      font-family: "Consolas", "Courier New", monospace;
+      font-size: large;
+    }
+    div.container-fluid { border: 1px solid green; margin : 5px; padding : 5px; border-radius: 3px; }
+    input[type=text] { border: 2px groove violet; }
+    input[type=range] { border: 2px groove violet; width:100px; }
+    img { border: 1px solid green; width: 200px; height: 200px; }
+    span { width: 200px; display: inline-block; background-color: #0f0; }
+    label { border: 1px solid blue; padding: 0px 40px; }
+    input { border : 1px solid violet; }
+    meter { width : 100%; }
+    </style>
+	</head>
+	<body>
+    <div class="jumbotron"><h1>CMPE2000 - Lab Exam 03 - Jesse Huss</h1></div>
+   	<!-- Start of Part A -->
+    <div class="container-fluid">
+      A:<br/>
+			<button id="btnPartA">Part A</button>
+      <div id="divPartA">A</div>
+    </div>
+   	<!-- Start of Part B -->
+    <div class="container-fluid">
+     	B:
+      <div class="row">
+        <div class="col-md-2"><input type="range" value="5" min="1" max="9" id="rOperand1"></div>
+        <div class="col-md-1">*</div>
+        <div class="col-md-2"><input type="range" value="5" min="1" max="9" id="rOperand2"></div>
+        <div class="col-md-1">&divide;</div>
+        <div class="col-md-2"><input type="range" value="5" min="1" max="9" id="rOperand3"></div>
+        <div class="col-md-1">=</div>
+        <div class="col-md-3"><label id="lblPartBOutput" style="border: solid 1px red">?</label>Answer</div>
+      </div>
+      <div class="row">
+        <div class="col-md-6"><button id="btnPartB">Part B</button></div>
+        <div class="col-md-6">Format : "Op1 * Op2 &divide; Op3 = #.NN"</div>
+      </div>
+    </div>
+  	<!-- Start of Part C -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4"><meter id="mPartC" min="1" max="2000"></meter></div>
+        <div class="col-md-4"><label id="lblPartC"></label></div>
+        <div class="col-md-4"><button id="btnPartC" type="button">Start</button></div>
+      </div>
+    </div>
+  	<!-- Start of Part D -->
+    <div class="container-fluid">
+		  D:
+      <div class="row">
+        <div class="col-md-2"><button id="btnPartD" type="button">Type</button></div>
+        <div class="col-md-10"><label class="lblPartD"> </label></div>
+      </div>
+    </div>
+   	<!-- Start of Part E -->
+    <div class="container-fluid">
+      E: 
+      <div class="row">
+        <div class="col-md-4"><img id="imgPartE" src=" "></div>
+        <div class="col-md-8">
+          <label><input type="radio" name="rbPartE" value="images/tux0.png" />tux0</label>
+          <label><input type="radio" name="rbPartE" value="images/tux1.png" />tux1</label>
+          <label><input type="radio" name="rbPartE" value="images/tux2.png" />tux2</label>
+        </div>
+      </div>
+    </div>
+   	<!-- Start of Part F -->
+    <div class="container-fluid">
+    F:
+      <div class="row">
+        <div class="col-md-2"><button id="btnPartF">Part F</button></div>
+        <div class="col-md-2"><span id="spanPartFA">A</span></div>
+        <div class="col-md-2"><span id="spanPartFB">B</span></div>
+        <div class="col-md-2"><span id="spanPartFC">C</span></div>
+        <div class="col-md-2"><span id="spanPartFD">D</span></div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      &copy; CNT &#9835;
+    </div>
+	</body>
+</html>

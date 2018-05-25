@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Assignment 4</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">         
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="A04.css">
+    </head>
+    <body>
+        <h1 style = "font-size: 62"> CMPE2000 - Jesse Huss - 2016 </h1>
+        <hr/>
+        <a href="../../..">Home</a>
+        <a href="../../Demos/Demos.html">Demos</a>
+        <a href="../../Exams/Exams.html">Exams</a>
+        <a href="../../Assignments/Assignments.html">Assignments</a>
+        <a href="../../Labs/Labs.html">Labs</a>
+        <hr/>
+        <a href="../A03/A03.html">Assignment 3</a>
+        <a href="A04.html">Assignment 4</a>
+        <a href="../A05/A05.html">Assignment 5</a>
+        <a href="../A06/A06.html">Assignment 6</a>
+        <a href="../A07/A07.html">Assignment 7</a>
+        <a href="../A08/A08.html">Assignment 8</a>
+        <a href="../A09/A09.html">Assignment 9</a>
+        <a href="../A10/A10.html">Assignment 10</a>
+
+        <br/>
+
+
+        <div class="jumbotron text-center jumboCol">
+            <h1> ica04 Bootstapped Forms </h1>      
+        </div>
+        <div class="container largerText">
+            <form method="post"
+                  action="https://thor.net.nait.ca/~demo/cmpe2000/ica04.php"
+                  target="_self">
+
+                <input type="hidden" name="Invisible" value="cmpe2000">
+
+                <div class="row">
+                    <div class="col-sm-6 text-right">
+                        Username :
+                    </div>
+                    <div class="col-sm-6">
+                        <input type="text" name="UserName" placeholder="Enter Username" maxlength="12"/>                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 text-right">
+                        Password : 
+                    </div>
+                    <div class="col-sm-6">
+                        <input type="password" name="Password" placeholder="Enter Password" maxlength="8"/>                  
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <fieldset class="fieldsetProperties">
+                            <legend class="legendProperties">Who do you Love? : </legend>       
+                            <label> Luke : <input type="radio" name="Fanboy" value="Star Wars"></label><br/>
+                            <label> Kirk : <input type="radio" name="Fanboy" value="Star Trek"></label><br/>
+                            <label> Bender : <input type="radio" name="Fanboy" value="Futurama"></label>
+                        </fieldset> 
+                    </div>
+                </div>    
+                <div class="row">
+                    <div class="col-sm-6 text-right">
+                        How much : 
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="range" min="10" max="20" name="HowMuch"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 text-right">
+                        Choice of Ride:
+                    </div>
+                    <div class="col-sm-6">
+                        <select name="Moto" class="choiceBox">
+                            <option value="BMW"selected="Selected">Germany</option>
+                            <option value="Ducati">Italy</option>
+                            <option value="Honda">Japan</option>
+                            <option value="Triuph">United Kingdom</option>
+                        </select> 
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6 text-right">
+                        <label for="cheeky">Lights : </label>
+                    </div>
+                    <div class="col-sm-6">
+                        <input id="cheeky" name="Lights" type="checkbox" checked="checked">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 text-right">
+                        <button name="resetButton" type="reset">Reset Now</button>
+                    </div>
+                    <div class="col-sm-6 text-left">                                       
+                        <button type="submit">Lets Go</button>
+                    </div>
+                </div>
+
+            </form>            
+        </div>
+        <div class="text-center footer largerText">
+            &COPY; by Jesse Huss <br/>
+            <script>document.write("Last Modified: " + document.lastModified);</script>
+        </div>
+    </body>
+</html>

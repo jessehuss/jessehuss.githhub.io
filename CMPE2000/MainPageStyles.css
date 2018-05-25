@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 13, 2016, 1:33:35 PM
+    Author     : jhuss2
+*/
+
+body
+{
+    font-family: "Baloo Paaji", Helvetica, TimesNewRoman, serif;
+    color: cyan;
+    background-color: #f00ab2;
+    text-align: center;        
+}
+#Alast{
+    letter-spacing: 10px;
+}
+#firstDiv
+{
+    font-family: "Baloo Paaji", serif, helvetica;
+    color: lime;
+    text-align: center;
+}
+h1, h5{
+    text-align: center;
+}
+.centered{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+a{
+    font-size: 1em;
+}
+a:link{
+    color:aquamarine;
+}
+a:visited{
+    color:orange;    
+}
+a:hover{    
+    color: violet;
+}
+a:active{
+    color: mediumspringgreen
+}

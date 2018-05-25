@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Assignment 6</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="A06.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="A06.css">
+    </head>
+    <body>
+        <h1 style = "font-size: 62"> CMPE2000 - Jesse Huss - 2016 </h1>
+        <hr/>
+        <a href="../../..">Home</a>
+        <a href="../../Demos/Demos.html">Demos</a>
+        <a href="../../Exams/Exams.html">Exams</a>
+        <a href="../../Assignments/Assignments.html">Assignments</a>
+        <a href="../../Labs/Labs.html">Labs</a>
+        <hr/>
+        <a href="../A03/A03.html">Assignment 3</a>
+        <a href="../A04/A04.html">Assignment 4</a>
+        <a href="../A05/A05.html">Assignment 5</a>
+        <a href="A06.html">Assignment 6</a>
+        <a href="../A07/A07.html">Assignment 7</a>
+        <a href="../A08/A08.html">Assignment 8</a>
+        <a href="../A09/A09.html">Assignment 9</a>
+        <a href="../A10/A10.html">Assignment 10</a>
+
+        <div class="mainDivColor">
+            <div class="jumbotron text-center jumboCol">
+                <h1>ICA06 - Shipping Calculator</h1>      
+            </div>
+            <div class="container largerText">
+                <form method="post"
+                      name="myForm"
+                      action="https://thor.net.nait.ca/~demo/cmpe2000/ica04_formtest.php"
+                      target="_self">    
+                    <p class="text-center largerText">SuperDuper Javascript Shipping Calculator</p>
+                    <input type="hidden" name="Invisible" value="jesseh">
+
+                    <div class="row">
+                        <div class="col-sm-4 text-right">
+                            Subtotal :         
+                        </div>                       
+                        <div class="col-sm-4 ">
+                            <input class="CenteredInline text-right" type="text" id="subtotal" name="Subtotal" value="0.00"/>                        
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-4 text-right">
+                            GST :         
+                        </div>                       
+                        <div class="col-sm-4 ">
+                            <input class="CenteredInline text-right" type="text" readonly id="gst" name="GST" value="0.00"/>                        
+                        </div>
+                        <div class="col-sm-4">
+                            <input type="checkbox" name="GSTCheck" ><br/>
+                        </div>
+                    </div>
+
+                    <fieldset>
+                        <div class="row">
+                            <div class="col-sm-4 text-right">
+                                PST :         
+                            </div>                       
+                            <div class="col-sm-4 ">
+                                <input class="CenteredInline text-right" type="text" id="pst" readonly name="PST" value="0.00"/>                        
+                            </div>                        
+                            <div class="col-sm-4">
+                                <input type="radio" id="none" name="Tax" checked value="0">
+                                <label for="none">None</label> 
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4"></div>
+                            <div class="col-sm-4"></div>
+                            <div class="col-sm-4">
+                                <input type="radio" id="five" name="Tax" value="0.05">
+                                <label for="five">5%</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4"></div>
+                            <div class="col-sm-4"></div>
+                            <div class="col-sm-4">
+                                <input type="radio" id="eight" name="Tax" value="0.08">
+                                <label for="eight">8%</label>    
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <div class="row">
+                        <div class="col-sm-4 text-right">
+                            Shipping :         
+                        </div>                       
+                        <div class="col-sm-4 ">
+                            <input class="CenteredInline text-right" type="text" id="shipping" readonly name="Shipping" value="0.00"/>                        
+                        </div>
+                        <div class="col-sm-4">                            
+                            <select name="ShippingType" class="backColYel">
+                                <option value="0">Free ($0.00)</option>
+                                <option value="10">Mail ($10.00)</option>
+                                <option value="15">UPS ($15.00)</option>
+                                <option value="20">Express ($20.00)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-4 text-right">
+                            Total :         
+                        </div>                       
+                        <div class="col-sm-4 ">
+                            <input class="CenteredInline text-right" type="text" id="total" readonly name="Total" value="$ 0.00"/>                        
+                        </div>
+                    </div>
+                    <div class="row">                        
+                        <input class="CenteredInline" type="submit" value="Check and Submit">
+                    </div>
+                    <br/><br/>
+                </form>
+                <div class="text-center footer largerText">
+                    &COPY; by Jesse Huss <br/>
+                    <script>document.write("Last Modified: " + document.lastModified);</script>
+                </div>
+                <br/><br/>
+            </div>
+        </div>
+
+    </body>
+</html>

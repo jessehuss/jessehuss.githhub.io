@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>Exam 1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="E01.css">
+    </head>
+    <body>
+        <h1 style = "font-size: 62"> CMPE2000 - Jesse Huss - 2016 </h1>
+        <hr/>
+        <a href="../../..">Home</a>
+        <a href="../../Demos/Demos.html">Demos</a>
+        <a href="../../Exams/Exams.html">Exams</a>
+        <a href="../../Assignments/Assignments.html">Assignments</a>
+        <a href="../../Labs/Labs.html">Labs</a>
+        <hr/>
+        <a href="E01.html">Exam 1</a>
+        <a href="../E02/E02.html">Exam 2</a>
+        <a href="../E03/E03.html">Exam 3</a>
+        <a href="../E04/E04.html">Exam 4</a>
+        <hr/>
+        <a href="E01.html"> Exam 1 Part A </a>
+        <a href="E01PB.html"> Exam 1 Part B </a>
+        <hr/>
+        <div class="jumbotron text-center jumboCol">
+            <h1> Part B - Jesse Huss </h1>      
+        </div>
+        <form method="post"
+              action="https://thor.net.nait.ca/~demo/cmpe2000/ica04_formtest.php"
+              target="_self">
+            <div class='container'>
+
+                <div class='col-md-3'><input type="hidden" name="Hidden-Who" value="Jesse Huss"></div>
+                <div class="col-md-9"></div>    
+
+                <div class="row">                                    
+                    <div class="col-md-3">Name:</div>
+                    <div class='col-md-9'><input type="text" name="SName" placeholder="Who?" maxlength="4"/></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">Genre : </div>  
+                    <div class="col-md-9"><input id="boo" name="Horror" type="checkbox" value="boo"><label for="boo">Scary</label></div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-9"><input id="Beep" name="Sci-Fi" type="checkbox" value="Beep"><label for="Beep">Techno</label></div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-9"><input id="Sob" name="Drama" type="checkbox" checked="checked" value="Sob"><label for="Sob">True Story</label></div>
+                </div>
+                <div class="row">
+                    <fieldset>
+                        <div class="col-md-3">Wizard Level:</div> 
+                        <div class="col-md-9"><label><input type="radio" name="Fanboy" value="1">One</label></div>   
+                        <div class="col-md-3"></div>
+                        <div class="col-md-9"><label><input type="radio" name="Fanboy" checked="checked" value="2">Two</label></div>
+                        <div class="col-md-3"></div>
+                        <div class="col-md-9"><label><input type="radio" name="Fanboy" value="3">Three</label></div>
+                    </fieldset> 
+                </div>
+                <div class="row">
+                    <div class="col-md-3">Best Scary Movie:</div>
+                    <div class="col-md-9">
+                        <select name="BestScare">
+                            <option value="Jab"selected="Selected">Halloween</option>
+                            <option value="Yikes">Scream</option>
+                            <option value="Munch">Alien</option>
+                        </select> 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3"><button name="resetButton" type="reset">Reset Now</button></div> 
+                    <div class="col-md-9"><button type="submit">Sub-mit</button></div>
+                </div>
+
+
+
+            </div>    
+        </form>
+    </body>
+</html>

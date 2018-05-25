@@ -1,0 +1,37 @@
+.jumboCol{
+    background-color:lightgrey;
+    color: black;
+}
+.footer{
+    text-align: center;
+    margin:10px 10px 10px 10px;
+    background-color: lightgreen;
+    border-radius: 20px
+}
+.CenteredBlock{
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;   
+    text-align: center;
+    display: block;
+}
+.CenteredInline{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.rightInline{
+    margin-left: auto;
+    margin-right:0;
+    display: block;
+}
+.leftInline{
+    margin-left: 0;
+    margin-right: auto;
+    display: block;
+    
+}
+#fixed{
+    height: 400px;
+    display: block;
+}

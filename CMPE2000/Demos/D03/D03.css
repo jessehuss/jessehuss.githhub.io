@@ -1,0 +1,58 @@
+body{
+    color:blueviolet;
+}
+
+#headerDiv{
+    text-align: center;
+    background-color: black;
+    margin: 100px;
+    padding: 50px;
+}
+#innerDiv{
+    text-align: left;
+    background-color: red;
+    border:aqua solid thick;
+    margin: 20px 50px 10px 35px;
+    padding: 50px 100px 150px 200px;
+    border-radius: 400px 400px 400px 400px;
+}
+#textDiv{
+    padding: 100px;
+    background-color: lightskyblue;
+}
+#listDiv{
+    background-color: orange;
+    padding:50px;
+}
+table{
+    border-width: thick;
+    border-color: blue;
+    border-style: dashed;
+    background-color: orange;
+}
+tfoot{
+    color:aquamarine;
+    text-align: center;
+}
+tr{
+    background-color: magenta;
+}
+td{
+    border: greenyellow solid medium;
+    background-color: purple;
+}
+iframe{
+    margin: 20px
+}
+.floatLeft{
+    float: left;
+}
+.noFloat{
+    clear:both;
+}
+.blueText{
+    color:blue;
+}
+li:nth-child(2n){
+    color: red;
+}

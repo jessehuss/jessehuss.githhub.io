@@ -1,0 +1,131 @@
+.jumboConf{
+    font-family: 'Rock Salt', cursive;
+    background-color: #222222;
+    color: lightgrey;
+}
+.mainDiv{
+    font-family: 'Exo 2', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightgray;
+}
+.footerDiv{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightgray;
+}
+.footer{
+    background-color: #222222;
+    color: lightgrey;
+    border: 1px black solid;
+    border-radius: 5px;    
+}
+.CenteredInline{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.lrgBold{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.mdBold{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.panel{
+    background-color: #222222;
+    color: lightgray;
+}
+.lefty{
+    float: left;    
+}
+.righty{
+    float:right;    
+}
+.CenteredBlock{
+    margin-left: auto;
+    margin-right: auto;   
+}
+.tableConf{
+    border: #5E5E5E solid 2px;
+    background-color: #222222;
+    color:lightgrey;    
+}
+.offColorTableRow{
+    background-color: lightgrey;
+    color: #222222;   
+}
+#gameStyle{
+    transform-origin: 0px 0px 0px;
+    width: 484px; 
+    height: 208px;
+}
+.imageBorder{
+    border: 4px white solid
+}
+.centerTextLefty{
+    margin:0 auto; 
+    text-align: center;
+    float: left;
+    width: 33%;
+    padding-top: 10%;
+}
+.centerImage{
+    margin:0 auto; 
+    text-align: center;
+    float: left;
+    width: 33%;
+}
+.centerTextRighty{
+    margin:0 auto; 
+    text-align: center;
+    float: right;
+    width: 33%;
+    padding-top: 10%;
+}
+.imageSize{    
+    width: 100%
+}
+#LSImagePosition{
+    width: 100%;
+    padding-top: 20%;
+}
+.carouselSize{
+    width: 1110px;
+    height:740px;
+}
+#parkImg{
+    padding-top: 5%;
+}
+.itemText{
+    color: #222222;    
+}
+.panel-title{
+    font-weight: bolder;
+}
+#CarouselCaption{
+    font-size: 24px;
+    font-weight: bold;
+    color: #222222;
+}
+.imageSizeAccomp{
+   height: 100%;
+   width: 100%;
+   max-width: 400px;
+   max-height: 400px;
+   min-height: 100px;
+   min-width: 100px;
+}
+.textPositioningAccomp{
+    padding-top: 25%;
+    padding-bottom: auto;
+}
+td:hover{
+    color: orange;
+}
+th:hover{
+    color: orange;
+}

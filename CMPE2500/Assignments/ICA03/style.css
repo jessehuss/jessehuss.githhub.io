@@ -1,0 +1,81 @@
+.jumbotron{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 1px red solid;
+}
+.rightInline{
+    margin-left: auto;
+    margin-right:0;
+    display: block;
+}
+.leftInline{
+    margin-left: 0;
+    margin-right:auto;
+    display: block;
+}
+.CenteredInline{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.midButtons{
+    width: 100%
+}
+.pad{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.footerDiv{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 1px red solid;
+}
+select{
+    width: 100%
+}
+table{
+    color: white;
+    width:100%;     
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+th{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;    
+    border-bottom: 1px red solid;
+}
+input{    
+    padding-left: 5px;
+    margin:2px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 1px red solid;
+}
+.divOne{          
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 1px red solid;
+}

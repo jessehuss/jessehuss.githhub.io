@@ -1,0 +1,40 @@
+.jumboCol{
+    background-color:blue;
+    color: grey;
+}
+.legendProperties{
+    font-style: italic;
+    font-size: smaller;
+}
+.fieldsetProperties{
+    border:solid grey 1px;    
+}
+.largerText{
+    font-size: larger;
+}
+.mainDivColor {
+    background-color: lightgrey;
+}
+.footer{    
+    background-color: lightgreen;
+}
+.choiceBox{
+    background-color:yellow;
+}
+.CenteredInline{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.backColYel{
+    background-color: yellow;
+}
+label{
+    font-weight: normal;
+}
+input{
+    font-family: 'Roboto Mono', monospace;
+}
+fieldset label{
+    font-weight: bold;
+}

@@ -1,0 +1,32 @@
+.jumboConf{
+    background-color: blue;
+    color: grey;
+}
+#bottomDiv{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+.form-inline{
+    display:block;    
+}
+button, input{
+    color:black;
+}
+table{
+    border:2px dashed blue;
+}
+td{
+    font-size: larger;
+    font-weight: bolder;
+    padding: 8px;   
+}
+tr{
+    
+}
+tr:first-child{
+    background-color: lightgreen;
+}
+td:first-child{
+    background-color: lightgreen;
+}

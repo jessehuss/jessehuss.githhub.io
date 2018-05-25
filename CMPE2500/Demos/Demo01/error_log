@@ -1,0 +1,1 @@
+[05-Jan-2017 20:46:49 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 32 bytes) in /home/jhuss222/public_html/CMPE2500/Demos/Demo01/utility.php on line 18

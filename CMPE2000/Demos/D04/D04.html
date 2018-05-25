@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Demo 4</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron text-center">
+                <h1 style = "font-size: 62"> CMPE2000 - Jesse Huss - 2016 </h1>      
+            </div>  
+
+            <hr/>
+            <a href="../../..">Home</a>
+            <a href="../../Demos/Demos.html">Demos</a>
+            <a href="../../Exams/Exams.html">Exams</a>
+            <a href="../../Assignments/Assignments.html">Assignments</a>
+            <a href="../../Labs/Labs.html">Labs</a>
+            <hr/>
+            <a href="../D03/D03.html">Demo 3</a>
+            <a href="D04.html">Demo 4</a>
+            <a href="../D05/D05.html">Demo 5</a>
+            <a href="../D06/D06.html">Demo 6</a>
+            <a href="../D07/D07.html">Demo 7</a>
+            <a href="../D08/D08.html">Demo 8</a>
+            <a href="../D09/D09.html">Demo 9</a>
+            <a href="../D10/D10.html">Demo 10</a>
+            <br/>
+            <br/>
+            <br/>
+
+
+            <form method="get"
+                  action="https://thor.net.nait.ca/~demo/cmpe2000/ica04_formtest.php"
+                  target="_self">
+                <div class="row">
+                    <div class="col-md-1">
+                        Name :
+                    </div>
+                    <div class="col-md-8">
+                        <input type="text" name="userName" placeholder="Gimme yer name" maxlength="10"/><br/>                        
+                    </div>
+                </div>
+                <br/>
+                <div class ="row">
+                    <div class="col-md-3 col-md-offset-2">
+                        <label> Stuff : <input type="radio" name="checkStuff"/> </label>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="moreRadio">More Stuff : </label>
+                        <input id="moreRadio" type="radio" name="checkStuff" checked="checked"/><br/> 
+                    </div>
+                </div>    
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-2 text-center">
+                        <fieldset>
+                            <legend>Car Choices : </legend>       
+                            <label> M3 : <input type="radio" name="choices" value="BMW"></label>
+                            <label> SLK : <input type="radio" name="choices" value="Mercedes"></label><br/>
+                            <label> s80 : <input type="radio" name="choices" value="Volvo"></label>
+                        </fieldset>
+                    </div>
+                </div>
+
+
+                Password : <input type="password" placeholder="Type your password"/>    
+                <br/> 
+
+                <input id="cheeky" name="myCheckbox" type="checkbox"><label for="cheeky"> - Blah</label>
+                <br/> 
+
+
+                <select name="colorSelection">
+                    <option value="Red">Yellow</option>
+                    <option value="Orange" selected="Selected">Green</option>
+                    <option value="Purple">Blue</option>
+                </select> 
+                <br/>
+
+                Choose a Number : <input type="range" min="5" max="10" name="rangeSelection"/>
+                <br/>
+
+                Pic a Color : <input type="color" name="color"/>
+                <br/>
+
+                Comment Field : <br/> <textarea rows="10" cols="100"></textarea> <br/>  
+
+                <button name="submitButton" type="submit">Press Me!</button>
+
+            </form>              
+        </div>   
+        <div class="container-fluid text-left">Dis Boiii</div>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+h1{
+    font-family: 'Audiowide', cursive;
+}
+th{
+    padding-left: 80px;
+    padding-right: 80px;
+    border:1px solid red;    
+}
+td{
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border:2px green groove;
+}
+td:first-child{
+    text-align: center;
+    background-color: #bad;
+}
+td:hover{
+    color: red;
+}
+li:hover{
+    font-family: 'Courier New'
+}
+body{
+    font-family: 'Acme', sans-serif;
+}
+.topAndBottomDiv{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border:15px green dotted;
+}
+.mainDiv{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    border:15px dotted #00b;
+}
+.imageBorder{
+    border: 3px solid #e0e;
+}
+.row{
+    background-color: lightcyan;
+    margin-top: 5px;
+}

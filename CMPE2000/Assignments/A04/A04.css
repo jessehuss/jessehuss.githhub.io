@@ -1,0 +1,28 @@
+.jumboCol{
+    background-color:blue;
+    color: grey;
+}
+.legendProperties{
+    font-style: italic;
+    font-size: smaller;
+}
+.fieldsetProperties{
+    border:solid grey 1px;    
+}
+.largerText{
+    font-size: larger;
+}
+.footer{
+    background-color:#898989;
+}
+.choiceBox{
+    background-color:yellow;
+}
+
+label{
+    font-weight: normal;
+}
+
+fieldset label{
+    font-weight: bold;
+}

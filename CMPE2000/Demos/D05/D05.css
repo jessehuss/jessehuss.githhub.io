@@ -1,0 +1,8 @@
+table{
+    border:6px solid red;
+}
+td{
+    margin: 5px;
+    padding: 5px;
+    border: 4px dashed aqua;
+}

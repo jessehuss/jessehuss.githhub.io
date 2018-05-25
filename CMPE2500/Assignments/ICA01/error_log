@@ -1,0 +1,33 @@
+[06-Jan-2017 19:57:22 UTC] PHP Fatal error:  Function name must be a string in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 26
+[06-Jan-2017 19:57:53 UTC] PHP Fatal error:  Function name must be a string in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 26
+[06-Jan-2017 19:57:54 UTC] PHP Fatal error:  Function name must be a string in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 26
+[06-Jan-2017 19:57:54 UTC] PHP Fatal error:  Function name must be a string in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 26
+[06-Jan-2017 19:57:54 UTC] PHP Fatal error:  Function name must be a string in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 26
+[06-Jan-2017 19:57:54 UTC] PHP Fatal error:  Function name must be a string in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 26
+[06-Jan-2017 19:57:55 UTC] PHP Fatal error:  Function name must be a string in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 26
+[06-Jan-2017 19:59:01 UTC] PHP Fatal error:  Function name must be a string in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 26
+[06-Jan-2017 19:59:03 UTC] PHP Fatal error:  Function name must be a string in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 26
+[06-Jan-2017 19:59:03 UTC] PHP Fatal error:  Function name must be a string in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 26
+[06-Jan-2017 19:59:03 UTC] PHP Fatal error:  Function name must be a string in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 26
+[06-Jan-2017 19:59:03 UTC] PHP Fatal error:  Function name must be a string in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 26
+[06-Jan-2017 19:59:04 UTC] PHP Fatal error:  Function name must be a string in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 26
+[06-Jan-2017 19:59:57 UTC] PHP Fatal error:  Call to undefined function strip_tage() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 33
+[06-Jan-2017 20:00:08 UTC] PHP Fatal error:  Call to undefined function strip_tage() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 33
+[06-Jan-2017 20:00:10 UTC] PHP Fatal error:  Call to undefined function strip_tage() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 33
+[06-Jan-2017 20:00:10 UTC] PHP Fatal error:  Call to undefined function strip_tage() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 33
+[06-Jan-2017 20:00:10 UTC] PHP Fatal error:  Call to undefined function strip_tage() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 33
+[06-Jan-2017 20:01:06 UTC] PHP Warning:  filter_input() expects parameter 1 to be long, array given in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 26
+[06-Jan-2017 20:01:06 UTC] PHP Fatal error:  Call to undefined function strip_tage() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 33
+[06-Jan-2017 20:05:40 UTC] PHP Fatal error:  Call to undefined function strip_tage() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 39
+[06-Jan-2017 20:05:41 UTC] PHP Fatal error:  Call to undefined function strip_tage() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 39
+[06-Jan-2017 20:05:48 UTC] PHP Fatal error:  Call to undefined function strip_tage() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 39
+[06-Jan-2017 20:07:31 UTC] PHP Fatal error:  Call to undefined function strip_tage() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 35
+[06-Jan-2017 20:08:40 UTC] PHP Fatal error:  Call to undefined function strip_tage() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 33
+[06-Jan-2017 20:08:41 UTC] PHP Fatal error:  Call to undefined function strip_tage() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 33
+[06-Jan-2017 21:08:46 UTC] PHP Parse error:  syntax error, unexpected '$list' (T_VARIABLE) in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 62
+[06-Jan-2017 21:08:50 UTC] PHP Parse error:  syntax error, unexpected '$list' (T_VARIABLE) in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 62
+[06-Jan-2017 21:08:51 UTC] PHP Parse error:  syntax error, unexpected '$list' (T_VARIABLE) in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 62
+[06-Jan-2017 21:08:51 UTC] PHP Parse error:  syntax error, unexpected '$list' (T_VARIABLE) in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 62
+[06-Jan-2017 21:08:51 UTC] PHP Parse error:  syntax error, unexpected '$list' (T_VARIABLE) in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 62
+[06-Jan-2017 21:08:58 UTC] PHP Parse error:  syntax error, unexpected '$list' (T_VARIABLE) in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 62
+[06-Jan-2017 21:09:02 UTC] PHP Parse error:  syntax error, unexpected '$list' (T_VARIABLE) in /home/jhuss222/public_html/CMPE2500/Assignments/ICA01/index.php on line 62

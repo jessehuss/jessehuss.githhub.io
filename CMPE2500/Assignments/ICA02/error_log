@@ -1,0 +1,1 @@
+[13-Jan-2017 19:21:51 UTC] PHP Warning:  password_verify() expects parameter 2 to be string, array given in /home/jhuss222/public_html/CMPE2500/Assignments/ICA02/functions.php on line 13

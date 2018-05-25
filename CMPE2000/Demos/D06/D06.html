@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Demo 6</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="D0.js" type="text/javascript"></script>
+    </head>
+    <body>
+         <h1 style = "font-size: 62"> CMPE2000 - Jesse Huss - 2016 </h1>
+        <hr/>
+        <a href="../../..">Home</a>
+        <a href="../../Demos/Demos.html">Demos</a>
+        <a href="../../Exams/Exams.html">Exams</a>
+        <a href="../../Assignments/Assignments.html">Assignments</a>
+        <a href="../../Labs/Labs.html">Labs</a>
+        <hr/>
+        <a href="../D03/D03.html">Demo 3</a>
+        <a href="../D04/D04.html">Demo 4</a>
+        <a href="../D05/D05.html">Demo 5</a>
+        <a href="D06.html">Demo 6</a>
+        <a href="../D07/D07.html">Demo 7</a>
+        <a href="../D08/D08.html">Demo 8</a>
+        <a href="../D09/D09.html">Demo 9</a>
+        <a href="../D10/D10.html">Demo 10</a>
+                
+        <hr/>
+        
+        <form name="myForm"
+              method="post"
+              action="/~demo/cmpe2000/ica04_formtest.php">
+            <input type="hidden" name="userName" value="jesseh">
+            Number of Units :
+            <input type="text" id="numUnitsTxb" name="NumUnits" maxlength="6" value="0"><br/>            
+            Cost per Unit :
+            <input type="text" name="CostPerUnit" value="1.00"><br/>
+            Tip :
+            <input type="checkbox" name="Tip" checked="checked"><br/>
+            <fieldset>
+                <legend>Building : </legend>
+                <label for="tower">Tower</label>
+                <input type="radio" id="tower" name="Building" value="2.2"><br/>
+                <label for="slum">Slum</label>
+                <input type="radio" id="slum" name="Building" value="1.5"><br/>
+            </fieldset>
+            Parking :
+            <select name="Parking">
+                <option value="0">Street</option>
+                <option value="10">Lot</option>
+                <option value="20">Parkade</option>
+            </select><br/>
+            <br/>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+            <br/>
+            <label id="status"></label>
+        </form>
+              
+        
+    </body>
+</html>

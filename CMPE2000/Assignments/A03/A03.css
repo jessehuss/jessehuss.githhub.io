@@ -1,0 +1,89 @@
+#bodyCol{
+    background-color: lightcyan;
+}
+.mainDiv{
+    background-color: lightgray;
+    border: solid black thin;
+    box-shadow: 5px 5px 0px #898989;
+}
+.header{    
+    text-align: center;
+    border:black solid medium;
+    margin: 10px 50px 10px 50px;    
+    border-radius: 30px;
+}
+.content{
+    margin:5px;
+    padding:20px;
+    border: red solid thin;
+    border-radius: 30px;
+    overflow: auto;
+}
+.footer{
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+    margin:10px 100px 10px 100px;
+    background-color: palegreen;
+    border-radius: 20px
+}
+.inner{
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    border: black solid thin;
+    border-radius: 5px;
+}
+.lefty{
+    float:left;
+    width: 45%;
+}
+.endy{
+    clear:both;
+}
+.CenteredText{
+    text-align: center;
+}
+.CenteredBlock{
+    margin-left: auto;
+    margin-right: auto;   
+}
+.CenteredInline{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+body{
+    font-family: 'Baloo Bhaina', cursive;
+}
+h1{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+ul{
+    padding-left: 0px;
+}
+ul li{
+    list-style-position: inside;
+}
+ul li:first-child{
+    font-size: smaller;
+}
+.time{
+    border: dashed blue 1px;
+}
+.time tr td{
+    text-align: center;
+    border: dotted green 1px;
+}
+.time tr:nth-child(2n-1){
+    background-color: palegreen;
+}
+th{
+    background-color: white;
+    border: dotted green 1px;
+}
+.time tr td:hover {
+    background-color: springgreen;
+}
+img{
+    height: 400px;
+}

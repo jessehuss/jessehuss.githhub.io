@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab Exam 04</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href='//fonts.googleapis.com/css?family=Raleway|Mountains+of+Christmas:700' rel='stylesheet' type='text/css'>
+    <script src="E04.js"></script>
+    <style type="text/css">
+      body, input, button, select { font-family: Raleway, "Trebuchet MS", sans-serif; font-size: x-large; }
+      .container { background-color: #eee; margin-bottom: 40px; }
+      .wide { width : 100%; }
+/*        div {
+          border: 1px solid blue;
+          margin: 5px;
+          padding: 5px;
+          border-radius: 3px;
+        }*/
+        .AnswerClass {
+          border: 2px groove green;
+        }
+        .eClass td, th {
+          border: solid 2px #0000FF;
+          padding: 2px 20px;
+        }
+        input[type=text] { border: 2px groove violet; }
+      </style>
+    </head>
+    <body>
+    <div class="jumbotron"><h1>CMPE2000 - Lab Exam 04 - [Your Name Here]</h1></div>
+   	<!-- Start of Part A -->
+    <div class="container">
+      A:<br/>
+      <button id="btnPartA">Part A</button><label id="lblPartA">?</label>
+    </div>
+    <div class="container">
+     	B:
+      <div class="row">
+        <div class="col-md-3"><input size="6" maxlength="6" type="text" id="tbPartB_A"/></div>
+        <div class="col-md-3"><input size="6" maxlength="6" type="text" id="tbPartB_B"/></div>
+        <div class="col-md-3"><input size="6" maxlength="6" type="text" id="tbPartB_C"/></div>
+      </div>
+      <div class="row">
+        <div class="col-md-6"><button id="btnPartB" class="wide">Part B</button></div>
+        <div class="col-md-6">Sum = <label id="lblPartB">?</label></div>
+      </div>
+    </div>
+    <div class="container">
+      C:<br/>
+      Seed : <input type="text" id="tbPartC" size="4">
+      <button id="btnPartC" type="button">Part C</button><hr/>
+      <div class="AnswerClass" id="divPartC">&nbsp;</div>
+    </div>
+    <div class="container">
+      D: 
+      X<sup>Y</sup> : <input type="text" id="tbPartDX" size="4"><sup><input type="text" id="tbPartDY" size="4"></sup>
+      = <input type="text" id="tbPartDAnswer" size="24"><br/>
+      <button id="btnPartD" type="button">Part D</button><br/>
+      <div class="AnswerClass" id="divPartDMessage">&nbsp;</div>
+    </div>
+    <div class="container">
+      E: 
+      Seed: <input size="3" maxlength="2" type="text" id="tbPartESeed"/>
+      Num:<input size="3" maxlength="2" type="text" id="tbPartENum"/>
+      <button id="btnPartE">Part E</button>
+      <div class="AnswerClass" id="divPartE"> </div>
+      <div class="AnswerClass">
+      <table id="tblPartE" class="eClass">
+        <thead></thead>
+        <tbody></tbody>
+      </table>
+      </div>
+    </div>
+    <div class="container-fluid">
+        &copy; 2016 - Have a great break... keep coding
+    </div>
+  </body>
+</html>

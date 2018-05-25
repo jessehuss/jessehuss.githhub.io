@@ -1,0 +1,150 @@
+<html>
+    <head>
+        <title>Assignment 9</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="A09.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="A09.css">
+    </head>
+    <body>
+        <h1 style = "font-size: 62"> CMPE2000 - Jesse Huss - 2016 </h1>
+        <hr/>
+        <a href="../../..">Home</a>
+        <a href="../../Demos/Demos.html">Demos</a>
+        <a href="../../Exams/Exams.html">Exams</a>
+        <a href="../../Assignments/Assignments.html">Assignments</a>
+        <a href="../../Labs/Labs.html">Labs</a>
+        <hr/>
+        <a href="../A03/A03.html">Assignment 3</a>
+        <a href="../A04/A04.html">Assignment 4</a>
+        <a href="../A05/A05.html">Assignment 5</a>
+        <a href="../A06/A06.html">Assignment 6</a>
+        <a href="../A07/A07.html">Assignment 7</a>
+        <a href="../A08/A08.html">Assignment 8</a>
+        <a href="A09.html">Assignment 9</a>
+        <a href="../A10/A10.html">Assignment 10</a>
+
+        <div class="jumbotron text-center">
+            <h1>ICA10 - JQuery Ajax Intro</h1>      
+        </div>
+
+        <div class="yel container">
+            <div class="row">
+                <div class="col-md-6 text-right">
+                    Name:
+                </div>                    
+                <div class="col-md-2 leftInline">
+                    <input id="Name" type="text" value="">
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-6 text-right">
+                    Hobby:
+                </div>                    
+                <div class="col-md-2 leftInline">
+                    <input id="Hobby" type="text" value="">
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-6 text-right">
+                    How Much I like it:
+                </div>                   
+                <div class="col-md-2 leftInline">
+                    <input id="HowMuch" type="range" min="1" max="13" value="8">
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-12">
+                    <input class="CenteredInline" id="getCall" type="button" value="Call with Get"/>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-12 text-center firstDiv" id="firstDiv">
+
+                </div>
+            </div>
+        </div>
+        <br/>
+        <div class="yel container">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-3">
+                    Row Count:
+                </div>
+                <div class="col-md-3">
+                    Column Count:
+                </div>
+                <div class="col-md-3"></div>
+            </div>    
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-3">
+                    <input id="RowCount" class="CenteredInline" type="range" min="1" max="13" value="5">
+                </div>
+                <div class="col-md-3">
+                    <input id="ColumnCount" class="CenteredInline" type="range" min="1" max="13" value="5">
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+            <br/>                
+            <div class="row">
+                <div class="col-md-12">
+                    <input class="CenteredInline" id="PostMakeTable" type="button" value="Post to Make 5x5 Table"/>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-12" id="targetDiv"></div>
+            </div>            
+        </div>
+        <br/>
+        <div class="yel container">
+            <div class="row">
+                <div class="col-md-12">
+                    <input class="CenteredInline" id="GenerateNums" type="button" value="Generate Numbers and Show"/>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-12" id="generateDiv">
+
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-12" id="PostShowDiv">
+                    <input class="CenteredInline" id="PostShow" type="button" value="Post and Show Modified"/>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-12" id="PostDiv">
+
+                </div>
+            </div>
+        </div>
+        <br/>         
+        <div class="yel container">
+            <div class="row">
+                <div class="col-md-12" id="FAIL">
+                    <input class="CenteredInline big-btn" id="FAIL" type="button" value="FAIL!!!!"/>
+                </div>
+            </div>
+        </div>
+        <br/>
+
+        <div class="text-center footer largerText ">
+            &COPY; by Jesse Huss <br/>
+            <script>document.write("Last Modified: " + document.lastModified);</script>
+        </div>
+
+    </body>
+</html>

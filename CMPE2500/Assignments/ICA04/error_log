@@ -1,0 +1,39 @@
+[26-Jan-2017 20:57:12 UTC] PHP Fatal error:  Call to undefined function AddUser() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/settings.php on line 16
+[26-Jan-2017 20:57:28 UTC] PHP Fatal error:  Call to undefined function AddUser() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/settings.php on line 16
+[26-Jan-2017 20:57:29 UTC] PHP Fatal error:  Call to undefined function AddUser() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/settings.php on line 16
+[26-Jan-2017 20:57:34 UTC] PHP Fatal error:  Call to undefined function AddUser() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/settings.php on line 16
+[27-Jan-2017 19:41:48 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/AddUser.php on line 16
+[27-Jan-2017 19:42:43 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/AddUser.php on line 17
+[27-Jan-2017 19:45:47 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/AddUser.php on line 15
+[27-Jan-2017 19:47:54 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/AddUser.php on line 16
+[27-Jan-2017 19:49:32 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/AddUser.php on line 16
+[27-Jan-2017 19:49:41 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/AddUser.php on line 16
+[27-Jan-2017 19:49:42 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/AddUser.php on line 16
+[27-Jan-2017 19:49:43 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/AddUser.php on line 16
+[27-Jan-2017 19:50:17 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/AddUser.php on line 15
+[27-Jan-2017 19:50:28 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/AddUser.php on line 15
+[27-Jan-2017 19:50:28 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/AddUser.php on line 15
+[27-Jan-2017 19:50:29 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/AddUser.php on line 15
+[27-Jan-2017 19:50:30 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/AddUser.php on line 15
+[27-Jan-2017 19:50:30 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/AddUser.php on line 15
+[27-Jan-2017 19:50:31 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/AddUser.php on line 15
+[27-Jan-2017 19:50:31 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/AddUser.php on line 15
+[27-Jan-2017 19:50:31 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/AddUser.php on line 15
+[27-Jan-2017 19:50:34 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/AddUser.php on line 15
+[27-Jan-2017 19:50:56 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/AddUser.php on line 15
+[27-Jan-2017 19:51:53 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/AddUser.php on line 15
+[27-Jan-2017 19:52:12 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/AddUser.php on line 15
+[27-Jan-2017 19:57:02 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/settings.php on line 20
+[27-Jan-2017 19:57:20 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/settings.php on line 20
+[27-Jan-2017 19:57:38 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/settings.php on line 20
+[27-Jan-2017 19:59:47 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/settings.php on line 20
+[27-Jan-2017 20:01:21 UTC] PHP Fatal error:  Call to undefined function mysqlNonQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/settings.php on line 20
+[06-Feb-2017 17:47:08 UTC] PHP Fatal error:  Function name must be a string in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/settings.php on line 8
+[07-Feb-2017 03:36:53 UTC] PHP Fatal error:  Call to undefined function AllUsersQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/FillTable.php on line 18
+[07-Feb-2017 03:36:57 UTC] PHP Fatal error:  Call to undefined function AllUsersQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/FillTable.php on line 18
+[07-Feb-2017 03:42:57 UTC] PHP Fatal error:  Call to undefined function AllUsersQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/FillTable.php on line 17
+[07-Feb-2017 03:43:00 UTC] PHP Fatal error:  Call to undefined function AllUsersQuery() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/FillTable.php on line 17
+[07-Feb-2017 03:51:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/FillTable.php on line 7
+[07-Feb-2017 03:53:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/FillTable.php on line 7
+[07-Feb-2017 03:54:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/FillTable.php on line 7
+[07-Feb-2017 03:54:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jhuss222/public_html/CMPE2500/Assignments/ICA04/FillTable.php on line 7
